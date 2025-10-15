@@ -1,0 +1,33 @@
+.history-container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  border: 2px solid #000;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.goal-history {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.completed-task {
+  background: #f6f6f6;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #000;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #fff;
+  background: #000;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+}

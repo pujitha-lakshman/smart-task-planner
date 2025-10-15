@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+  background: #fff;
+  color: #111;
+}
+
+.app-container {
+  width: 850px;
+  margin: 50px auto;
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  padding: 40px 50px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+header h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  color: #000;
+}
+
+.objective {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.goal-input-container {
+  margin-top: 25px;
+}
+
+.goal-input {
+  width: 100%;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  resize: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+.goal-input:focus {
+  border-color: #000;
+}
+
+.generate-btn {
+  margin-top: 18px;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.generate-btn:hover {
+  transform: translateY(-2px);
+}
+
+.no-tasks {
+  color: #666;
+  margin-top: 25px;
+  font-style: italic;
+}
+
+.task-list {
+  margin-top: 35px;
+  text-align: left;
+}
+
+.task-list h2 {
+  font-size: 1.2rem;
+  color: #111;
+  margin-bottom: 15px;
+}
+
+.task-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+}
+
+.task-tile {
+  background: #fff;
+  border-radius: 14px;
+  padding: 18px;
+  border: 1px solid #ccc;
+  transition: transform 0.2s ease;
+}
+
+.task-tile:hover {
+  transform: translateY(-3px);
+}
+
+.tile-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.task-checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #000;
+}
+
+.task-status {
+  font-size: 13px;
+  color: #777;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #666;
+}
+
+.history-link {
+  display: inline-block;
+  margin-top: 25px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.history-link:hover {
+  text-decoration: underline;
+}
+
+/* History Page */
+.history-container {
+  max-width: 850px;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  border: 1px solid #ccc;
+}
+
+.goal-history {
+  margin-top: 25px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.completed-task {
+  background: #f8f8f8;
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  background: #000;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.back-btn:hover {
+  transform: translateY(-2px);
+}
+
+.error-text {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 10px;
+}

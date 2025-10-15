@@ -1,0 +1,27 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.front-page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.click-area {
+  position: absolute;
+  right: 120px;       /* aligns horizontally with the button */
+  bottom: 120px;      /* aligns vertically with the button */
+  width: 420px;       /* covers the full rounded rectangle */
+  height: 70px;       /* matches the button’s height */
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0); /* invisible */
+  z-index: 9999;      /* ensures it’s on top */
+  pointer-events: all;
+}
+
+
